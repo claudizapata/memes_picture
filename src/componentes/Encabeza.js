@@ -1,6 +1,6 @@
 
 import "./estilos/Imgestilo.css";
-import descarga from "./estilos/descarga.jpg";
+import descargaMenor from "./estilos/descargaMenor.jpg"
 
 
 
@@ -13,7 +13,7 @@ const Encabeza = ()=>{
         
         <div className="pie-container">
             
-            <img src={descarga} alt="meme" className="imagen-meme"/>
+            <img src={descargaMenor} alt="meme" className="imagen-meme"/>
             <span className="material-symbols-outlined">menu</span>
     
         </div>
