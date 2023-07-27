@@ -28,8 +28,8 @@
 }
 h2{
     justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(183, 125, 237);
     text-shadow: 12px 20px 10px black;
@@ -130,16 +130,16 @@ input{
     border-radius: 20px;
     box-shadow: 12px 10px 10px black;
     color: blueviolet;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    width: 15rem;
-    height: 5rem;
+    width: 12rem;
+    height: 4rem;
 }
 
 /*Footer:*/
 .pie-container{
     display: flex;
-    margin-top: 15rem;
+    margin-top: 8rem;
     justify-content: space-between;
     background-color: rgb(201, 185, 236);
     align-items: center;
