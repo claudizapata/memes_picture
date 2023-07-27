@@ -139,7 +139,7 @@ input{
 /*Footer:*/
 .pie-container{
     display: flex;
-    margin-top: 8rem;
+    margin-top: 4rem;
     justify-content: space-between;
     background-color: rgb(201, 185, 236);
     align-items: center;
