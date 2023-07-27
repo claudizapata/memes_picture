@@ -9,12 +9,12 @@
     
 }
 #imagen-meme{
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
 }
 .material-symbols-outlined{
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-right: 2rem;
     
 }
@@ -40,7 +40,7 @@ h2{
     margin-top: 2rem;
     margin-bottom: 3rem;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    color: rgb(183, 125, 237);
+    color: rgb(170, 9, 62);
     text-shadow: 12px 20px 10px black;
 }
 .container_imagen{
@@ -58,7 +58,7 @@ ul{
     justify-content: center;
     align-items: center;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    color: blueviolet;
+    color: rgb(170, 9, 62);
     text-shadow: 12px 20px 10px black;
     font-size: 1.5rem;
 }
@@ -68,7 +68,7 @@ ul{
     justify-content: center;
     align-items: center;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    color: blueviolet;
+    color: rgb(170, 9, 62);
     text-shadow: 12px 20px 10px black;
     font-size: 1.5rem;
 
@@ -97,7 +97,7 @@ input{
 .estilo{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color: rgb(130, 9, 243);
+    color: rgb(170, 9, 62);
     margin-top: 1.5rem;
     font-size: 1.3rem;
     margin-top: 0;
@@ -115,16 +115,17 @@ input{
     justify-content: left;
     text-align: left;
     width: 40rem;
-    height: 4rem;
-    font-size: 1.8rem;
+    height: 3rem;
+    font-size: 1.3rem;
     margin-left: 1rem;
-    border: solid 5px blueviolet;
+    border: solid 5px rgb(170, 9, 62);
+    box-shadow: 2px 4px 24px 12px rgb(170, 9, 62);;
 }
        
 
 #imagen{
     border-radius: 20px;
-    box-shadow: 12px 14px 14px rgb(141, 125, 231);
+    box-shadow: 12px 14px 14px rgb(170, 9, 62);
     width: 15rem;
     height: 15rem;
     justify-content: center;
@@ -137,7 +138,7 @@ input{
     margin-top: 0.8rem;
     border-radius: 20px;
     box-shadow: 12px 10px 10px black;
-    color: blueviolet;
+    color: rgb(170, 9, 62);
     font-size: 1.5rem;
     font-weight: bold;
     width: 12rem;
@@ -164,6 +165,7 @@ input{
     display: flex;
     justify-content: right;
     margin-right: 2rem;
+   
     
     
 }

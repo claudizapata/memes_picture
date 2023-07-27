@@ -99,8 +99,8 @@ const Appis = () =>{
                       <select onChange={seleccionarImg} className='form-select' value={imgMeme}>
                             {data.map((character) =>{
                               return ( //item es la variable que recorre el array
-                                <option key={character.id} value={character.avatar} >
-                                {character.first_name}{' '}{character.last_name} </option>
+                                <option key={character.id} value={character.avatar} className='form-select'>
+                                {character.first_name}{' '}{character.last_name}  </option>
                                 ); //genera este li para cada meme, agregamos un KEY porque es una lista
                             })};
                       </select>
