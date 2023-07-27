@@ -7,8 +7,9 @@ import axios from "axios";
 import React, {useState, useEffect} from "react";
 
 import html2canvas from 'html2canvas';
-import Headerr from './Head';
+
 import Pie from './Footer';
+import Encabeza from './Encabeza';
 
 
 
@@ -67,7 +68,7 @@ const Appis = () =>{
     return(
       <>
       <section>
-        <Headerr/>
+    <Encabeza/>
       </section>
     <div className='container'>
         <div>
@@ -85,7 +86,7 @@ const Appis = () =>{
               
               <div className="abajo">
                   <h3>Abajo del Meme</h3>
-                  <input onChange={textoAbajo} className='ingresa-texto' type='text' placeholder='Escribí tu texto..' name='textoAbajo' maxLength={40} />
+                  <input onChange={textoAbajo} className='ingresa-texto' type='text' placeholder='Escribí tu texto...' name='textoAbajo' maxLength={40} />
                   <p className="guia">(Hasta 40 caracteres)</p>
               </div>
 
