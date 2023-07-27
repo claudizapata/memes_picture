@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    font-style: sans-serif;
+    
+}
+/*Encabezado*/
+.navbar{
+    margin-top: 0;
+    
+}
+#imagen-meme{
+    width: 5rem;
+    height: 5rem;
+}
+.collapse{
+    justify-content: center;
+}
+.nav-item{
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+  
+}
+.container{
+    justify-content: center;
+}
+h2{
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(183, 125, 237);
+    text-shadow: 12px 20px 10px black;
+}
+.container_imagen{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+
+.arriba{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    text-shadow: 12px 20px 10px black;
+    font-size: 1.5rem;
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+    align-items: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    text-shadow: 12px 20px 10px black;
+    font-size: 1.5rem;
+
+}
+
+.titulo2{
+    font-size: 1.2rem;
+    text-shadow: 12px 10px 5px black;
+}
+
+.guia{
+    color: burlywood;
+    font-size: 1.2rem;
+
+}
+input{
+    font-size: 1.4rem;
+    background: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 3rem;
+    width: 30rem;
+}
+
+.estilo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(130, 9, 243);
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 0;
+    
+}
+.estilo2{
+    margin-top: 0;
+}
+.card1{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.form-select{
+    justify-content: left;
+    text-align: left;
+    width: 40rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    border: solid 5px blueviolet;
+}
+       
+
+#imagen{
+    border-radius: 20px;
+    box-shadow: 12px 14px 14px rgb(141, 125, 231);
+    width: 15rem;
+    height: 15rem;
+    justify-content: center;
+    
+}
+
+    
+
+.boton{
+    margin-top: 0.8rem;
+    border-radius: 20px;
+    box-shadow: 12px 10px 10px black;
+    color: blueviolet;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 15rem;
+    height: 5rem;
+}
+
+/*Footer:*/
+.pie-container{
+    display: flex;
+    margin-top: 15rem;
+    justify-content: space-between;
+    background-color: rgb(201, 185, 236);
+    align-items: center;
+    height: 10vh;
+}
+.parrafo-pie{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 2rem;
+
+   
+}
+.lista-ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    
+    
+}
