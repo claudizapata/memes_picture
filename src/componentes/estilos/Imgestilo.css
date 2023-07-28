@@ -4,17 +4,24 @@
     
 }
 
-.navbar{
-    margin-top: 0;
     
+.header-container{
+    margin-top: 0;
+    background: linear-gradient(rgb(135, 93, 226, 0.87) 20%, transparent 80%);
+    
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    font-size: 3rem;
+    font-weight: normal;
 }
 #imagen-meme{
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .material-symbols-outlined{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-right: 2rem;
     
 }
@@ -47,9 +54,6 @@ h2{
     display: flex;
     justify-content: center;
     align-content: space-around;
-}
-ul{
-    list-style-type: none;
 }
 
 .arriba{
@@ -98,10 +102,10 @@ input{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     color: rgb(170, 9, 62);
-    margin-top: 1.5rem;
-    font-size: 1.3rem;
     margin-top: 0;
+    font-size: 1.3rem;
     
+        
 }
 .estilo2{
     margin-top: 0;
@@ -150,7 +154,7 @@ input{
     display: flex;
     margin-top: 4rem;
     justify-content: space-between;
-    background-color: rgb(201, 185, 236);
+    background-color: rgb(135, 93, 226);
     align-items: center;
     height: 10vh;
 }
